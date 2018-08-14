@@ -1,0 +1,47 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EditTextWhite" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/editText_textsize</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorWhite</item>
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="colorControlActivated">@color/colorWhite</item>
+    </style>
+
+    <style name="EditTextGray" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/colorLightGray</item>
+        <item name="android:textSize">@dimen/editText_textsize</item>
+        <item name="android:textColorPrimary">@color/colorLightGray</item>
+        <item name="colorAccent">@color/colorDarkGray</item>
+        <item name="colorControlNormal">@color/colorDarkGray</item>
+        <item name="colorControlActivated">@color/colorDarkGray</item>
+    </style>
+
+
+    <style name="TextViewSpinner" parent="Platform.Widget.AppCompat.Spinner">
+
+    </style>
+
+    <style name="ButtonLight" parent="ButtonLight">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@color/colorLightGray</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
